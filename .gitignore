@@ -1,0 +1,20 @@
+# Папки сборки
+bin/
+obj/
+
+# Конфигурация среды разработки
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Файлы пакетов
+*.nupkg
+packages/
+
+# Конфигурации и временные файлы
+*.log
+*.tmp
+
+# Visual Studio Code
+.vscode/
