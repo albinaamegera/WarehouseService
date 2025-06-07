@@ -25,35 +25,16 @@ namespace WarehouseTestService.Packaging
             if (box == null)
                 throw new ArgumentNullException(nameof(box), "попытка добавить пустое значение в список коробок");
 
-            bool isBoxUnkeepable = box.Width > Width || box.Depth > Width || box.Width > Depth || box.Depth > Depth;
+            bool boxFitsNormally = box.Width <= Width && box.Depth <= Depth;
+            bool boxFitsRotated = box.Width <= Depth && box.Depth <= Width;
 
-            if (isBoxUnkeepable)
+            if (!boxFitsNormally && !boxFitsRotated)
                 throw new InvalidOperationException("размеры коробки превышают размеры паллеты");
 
             Boxes.Add(box);
         }
-        private double GetWeightOfAllBoxes()
-        {
-            double weight = 0;
-
-            foreach (var box in Boxes)
-            {
-                weight += box.GetWeight();
-            }
-
-            return weight;
-        }
-        private double GetVolumeOfAllBoxes()
-        {
-            double volume = 0;
-
-            foreach (var box in Boxes)
-            {
-                volume += box.GetVolume();
-            }
-
-            return volume;
-        }
+        private double GetWeightOfAllBoxes() => Boxes.Sum(b => b.GetWeight());
+        private double GetVolumeOfAllBoxes() => Boxes.Sum(b => b.GetVolume());
         private DateTime GetMinExpireDateAmongBoxes()
         {
             if (Boxes.Count == 0)
