@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseTestService", "WarehouseTestService\WarehouseTestService.csproj", "{4E1D389A-F7A4-4BCC-B1B3-57992AC56166}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarehouseTestService", "WarehouseTestService\WarehouseTestService.csproj", "{4E1D389A-F7A4-4BCC-B1B3-57992AC56166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseTestService.Tests", "WarehouseTestService.Tests\WarehouseTestService.Tests.csproj", "{6F08B2C8-29CE-439E-9BE8-E9A432654802}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4E1D389A-F7A4-4BCC-B1B3-57992AC56166}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E1D389A-F7A4-4BCC-B1B3-57992AC56166}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E1D389A-F7A4-4BCC-B1B3-57992AC56166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F08B2C8-29CE-439E-9BE8-E9A432654802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F08B2C8-29CE-439E-9BE8-E9A432654802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F08B2C8-29CE-439E-9BE8-E9A432654802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F08B2C8-29CE-439E-9BE8-E9A432654802}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
