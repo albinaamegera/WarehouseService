@@ -8,26 +8,10 @@ namespace WarehouseTestService.Packaging
 {
     public abstract class Package
     {
-        private int _id;
         private double _width;
         private double _height;
         private double _depth;
 
-        /// <summary>
-        /// возвращает или устанавливает id. допустимы только положительные значения
-        /// </summary>
-        /// <exception cref="ArgumentOutOfRangeException">выбрасывается, если value отрицательное</exception>
-        /// <value>значение id</value>
-        public int Id 
-        { 
-            get => _id;
-            protected set
-            {
-                if (value < 0)
-                    throw new ArgumentOutOfRangeException(nameof(Id), "индекс не может быть отрицательным");
-                _id = value;
-            }
-        }
         /// <summary>
         /// возвращает или устанавливает ширину. допустимы только положительные значения
         /// </summary>

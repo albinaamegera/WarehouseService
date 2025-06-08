@@ -10,9 +10,8 @@ namespace WarehouseTestService.Packaging
         private ReadOnlyCollection<Box> _caсhedBoxes;
         private List<Box> Boxes { get; }
 
-        public Pallet(int id, double width, double height, double depth)
+        public Pallet(double width, double height, double depth)
         {
-            Id = id;
             Width = width;
             Height = height;
             Depth = depth;
@@ -20,10 +19,11 @@ namespace WarehouseTestService.Packaging
         }
 
         /// <summary>
-        /// возвращает суммарный вес паллеты
+        /// возвращает суммарный вес паллеты и коробок
         /// </summary>
+        /// <remarks>если коллекция коробок пустая, возвращает только вес паллеты</remarks>
         /// <exception cref="OverflowException">выбразывается, если результат бесконечный</exception>
-        /// <returns>вес паллеты</returns>
+        /// <returns>вес паллеты с коробками</returns>
         public override double GetWeight()
         {
             var result = GetWeightOfAllBoxes() + DEFAULT_PALLET_WEIGHT;
@@ -34,10 +34,11 @@ namespace WarehouseTestService.Packaging
         }
 
         /// <summary>
-        /// возвращает суммарный объем паллеты
+        /// возвращает суммарный объем паллеты и коробок
         /// </summary>
+        /// <remarks>если коллекция коробок пуста, возвращает только объем паллеты</remarks>
         /// <exception cref="OverflowException">выбразывается, если результат бесконечный</exception>
-        /// <returns>объем паллеты</returns>
+        /// <returns>объем паллеты c коробками</returns>
         public override double GetVolume()
         {
             var result = GetVolumeOfAllBoxes() + GetPalletVolume();

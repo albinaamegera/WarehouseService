@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\WarehouseTestService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E1D389A-F7A4-4BCC-B1B3-57992AC56166}|WarehouseTestService\\WarehouseTestService.csproj|c:\\users\\user\\source\\repos\\warehousetestservice\\warehousetestservice\\packaging\\pallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E1D389A-F7A4-4BCC-B1B3-57992AC56166}|WarehouseTestService\\WarehouseTestService.csproj|solutionrelative:warehousetestservice\\packaging\\pallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F08B2C8-29CE-439E-9BE8-E9A432654802}|WarehouseTestService.Tests\\WarehouseTestService.Tests.csproj|c:\\users\\user\\source\\repos\\warehousetestservice\\warehousetestservice.tests\\boxtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F08B2C8-29CE-439E-9BE8-E9A432654802}|WarehouseTestService.Tests\\WarehouseTestService.Tests.csproj|solutionrelative:warehousetestservice.tests\\boxtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F08B2C8-29CE-439E-9BE8-E9A432654802}|WarehouseTestService.Tests\\WarehouseTestService.Tests.csproj|c:\\users\\user\\source\\repos\\warehousetestservice\\warehousetestservice.tests\\pallettests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F08B2C8-29CE-439E-9BE8-E9A432654802}|WarehouseTestService.Tests\\WarehouseTestService.Tests.csproj|solutionrelative:warehousetestservice.tests\\pallettests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E1D389A-F7A4-4BCC-B1B3-57992AC56166}|WarehouseTestService\\WarehouseTestService.csproj|c:\\users\\user\\source\\repos\\warehousetestservice\\warehousetestservice\\packaging\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E1D389A-F7A4-4BCC-B1B3-57992AC56166}|WarehouseTestService\\WarehouseTestService.csproj|solutionrelative:warehousetestservice\\packaging\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1D389A-F7A4-4BCC-B1B3-57992AC56166}|WarehouseTestService\\WarehouseTestService.csproj|c:\\users\\user\\source\\repos\\warehousetestservice\\warehousetestservice\\packaging\\pallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1D389A-F7A4-4BCC-B1B3-57992AC56166}|WarehouseTestService\\WarehouseTestService.csproj|solutionrelative:warehousetestservice\\packaging\\pallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E1D389A-F7A4-4BCC-B1B3-57992AC56166}|WarehouseTestService\\WarehouseTestService.csproj|c:\\users\\user\\source\\repos\\warehousetestservice\\warehousetestservice\\packaging\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4E1D389A-F7A4-4BCC-B1B3-57992AC56166}|WarehouseTestService\\WarehouseTestService.csproj|c:\\users\\user\\source\\repos\\warehousetestservice\\warehousetestservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E1D389A-F7A4-4BCC-B1B3-57992AC56166}|WarehouseTestService\\WarehouseTestService.csproj|solutionrelative:warehousetestservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F08B2C8-29CE-439E-9BE8-E9A432654802}|WarehouseTestService.Tests\\WarehouseTestService.Tests.csproj|c:\\users\\user\\source\\repos\\warehousetestservice\\warehousetestservice.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F08B2C8-29CE-439E-9BE8-E9A432654802}|WarehouseTestService.Tests\\WarehouseTestService.Tests.csproj|solutionrelative:warehousetestservice.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,59 +46,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WarehouseTestService\\WarehouseTestService.Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "WarehouseTestService.Tests\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\WarehouseTestService\\WarehouseTestService.Tests\\UnitTest1.cs",
-              "RelativeToolTip": "WarehouseTestService.Tests\\UnitTest1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:52:36.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Box.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WarehouseTestService\\WarehouseTestService\\Packaging\\Box.cs",
-              "RelativeDocumentMoniker": "WarehouseTestService\\Packaging\\Box.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\WarehouseTestService\\WarehouseTestService\\Packaging\\Box.cs",
-              "RelativeToolTip": "WarehouseTestService\\Packaging\\Box.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:04:16.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Pallet.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WarehouseTestService\\WarehouseTestService\\Packaging\\Pallet.cs",
-              "RelativeDocumentMoniker": "WarehouseTestService\\Packaging\\Pallet.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\WarehouseTestService\\WarehouseTestService\\Packaging\\Pallet.cs",
-              "RelativeToolTip": "WarehouseTestService\\Packaging\\Pallet.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "Title": "BoxTests.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WarehouseTestService\\WarehouseTestService.Tests\\BoxTests.cs",
+              "RelativeDocumentMoniker": "WarehouseTestService.Tests\\BoxTests.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\WarehouseTestService\\WarehouseTestService.Tests\\BoxTests.cs",
+              "RelativeToolTip": "WarehouseTestService.Tests\\BoxTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T11:04:11.854Z",
+              "WhenOpened": "2025-06-08T12:26:43.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Package.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WarehouseTestService\\WarehouseTestService\\Packaging\\Package.cs",
               "RelativeDocumentMoniker": "WarehouseTestService\\Packaging\\Package.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\WarehouseTestService\\WarehouseTestService\\Packaging\\Package.cs",
               "RelativeToolTip": "WarehouseTestService\\Packaging\\Package.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAgwFQAAAAmAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAgwAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T16:07:03.139Z",
+              "WhenOpened": "2025-06-08T12:02:15.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Box.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WarehouseTestService\\WarehouseTestService\\Packaging\\Box.cs",
+              "RelativeDocumentMoniker": "WarehouseTestService\\Packaging\\Box.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\WarehouseTestService\\WarehouseTestService\\Packaging\\Box.cs",
+              "RelativeToolTip": "WarehouseTestService\\Packaging\\Box.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T06:18:39.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Pallet.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WarehouseTestService\\WarehouseTestService\\Packaging\\Pallet.cs",
+              "RelativeDocumentMoniker": "WarehouseTestService\\Packaging\\Pallet.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\WarehouseTestService\\WarehouseTestService\\Packaging\\Pallet.cs",
+              "RelativeToolTip": "WarehouseTestService\\Packaging\\Pallet.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAADwvw0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T18:38:57.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PalletTests.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WarehouseTestService\\WarehouseTestService.Tests\\PalletTests.cs",
+              "RelativeDocumentMoniker": "WarehouseTestService.Tests\\PalletTests.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\WarehouseTestService\\WarehouseTestService.Tests\\PalletTests.cs",
+              "RelativeToolTip": "WarehouseTestService.Tests\\PalletTests.cs",
+              "ViewState": "AQIAAMkAAAAAAAAAAAAAAOoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T18:38:02.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WarehouseTestService\\WarehouseTestService\\Program.cs",
               "RelativeDocumentMoniker": "WarehouseTestService\\Program.cs",
@@ -102,8 +119,7 @@
               "RelativeToolTip": "WarehouseTestService\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T15:57:54.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T15:57:54.722Z"
             }
           ]
         }

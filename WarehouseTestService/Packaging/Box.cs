@@ -37,9 +37,8 @@
                 _productionDate = value;
             }
         }
-        public Box(int id, double width, double height, double depth, double weight, DateTime productionDate)
+        public Box(double width, double height, double depth, double weight, DateTime productionDate)
         {
-            Id = id;
             Width = width;
             Height = height;
             Depth = depth;
